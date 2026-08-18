@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Abbas Ibrahim Mbulwa"
+title                    : # "Abbas Ibrahim Mbulwa"
 title_separator          : "-"
 name                     : &name "Abbas Ibrahim Mbulwa"
 description              : &description "Abbas's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,7 +23,7 @@ repository               : "aimbulwa/aimbulwa.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg" # filename of avatar image placed in /images/ for social media previews
+  avatar           : "profile.png" # filename of avatar image placed in /images/ for social media previews
   name             : "Abbas Ibrahim Mbulwa"
   pronouns         : # example: "she/her"  
   bio              : "Senior lecturer of Communications and Applied Mathematics" # at Universiti Malaysia Sabah (UMS). He is a member of the Institute of Electrical and Electronics Engineers (IEEE). His research interests include Wireless Communications, Applications of AI/ML in Telecommunication, Signal processing and smart sensing. He has published numerous research papers in reputable journals and conferences, contributing to advancements in the field of Telecommunication."
