@@ -7,6 +7,17 @@ redirect_from:
   - /about.html
 ---
 
+<!-- 
+
+See example page at https://himalakkaraju.github.io/ 
+
+May use html for better styling as markdown style is limited. 
+
+May add custom css style and javascript files in root or separate folder and use them in html, 
+however some css and javascript style features will not be visible in the markdown editor but in a web browser locally or online after git push
+
+-->
+
 I am a senior lecturer (assistant professor) at Universiti Malaysia Sabah (UMS) with appointments in the Faculty of Engineering. I earned a Ph.D. in Computer Engineering from UMS, specializing in mobility and handover management in 5G and beyond networks. From 2015 to 2019, I served as a research and teaching assistant at UMS, working on various computer engineering topics. From 2018 to 2025, I worked as a wireless communications engineer at Inferno Network and RapidMode Sdn. Bhd. in Kota Kinabalu, Malaysia, where my work focused on RF transmission, networking, and radio systems engineering for the [PI1M/NADI initiative](https://www.nadi.my/?lang=en) of the [Malaysian Communications and Multimedia Commission (MCMC)](https://www.mcmc.gov.my/en/home) in the western state of Sabah. In 2022, I was appointed as a graduate research assistant at UMS for a period of two years, during which I conducted research on mobility management in 5G. I also serve as a reviewer for several top conferences and journals, including IEEE TVET, IEEE WCL, IEEE COMML, IEEE ACCESS, and WILEY IJCS.
 
 I have received several recognitions and awards, including a Bronze Medal at the 2024 [Malaysia Technology Expo (MTE)](https://mtexpo.mte.org.my/) International Innovation Awards (IIA), a Best Paper Award from the [IEEE Malaysia ComSoc/VTS Joint Chapter](https://vtsociety.org/chapter/malaysia-section-joint-chapter) for publications in IEEE journals, magazines, and letters in 2023, and both a Gold Medal and a Best Invention Award at the [UMS Innovation Competition (PEREKA)](https://www.ums.edu.my/Borneofoi/) in 2022.
@@ -55,10 +66,7 @@ Please check out my CV for more details about me and my research.
 
 	  
 
-
-
-
-
+<!-- Blockquote will not be hidden
 
 NOTE: I am looking for motivated graduate and undergraduate students who are broadly interested in intelligent telecommunications, cognitive mobility in future 6G networks, and emerging next-generation communication systems solution. If you are excited about this line of research and would like to work with me, <details style="display:inline;"><summary style="display:inline; color:blue; cursor:pointer;">please read this.</summary>
 
@@ -75,31 +83,11 @@ NOTE: I am looking for motivated graduate and undergraduate students who are bro
 >Refer to the [Centre For Postgraduate Studies](https://www.ums.edu.my/ppps/index.php) for admission to masters or PhD programs.
 </details>
 
+-->
 
 
 
-
-
-NOTE: I am looking for motivated graduate and undergraduate students who are broadly interested in intelligent telecommunications, cognitive mobility in future 6G networks, and emerging next-generation communication systems solution. If you are excited about this line of research and would like to work with me, <details style="display:inline;"><summary style="display:inline; color:blue; cursor:pointer; text-decoration:underline;">please read this.</summary>
-
-<blockquote>
-<p>Thank you for your interest in joining my research team! I am currently recruiting undergraduate, masters, and PhD students.</p>
-
-<p>If you are a current undergraduate interested in pursuing masters or PhD student at UMS, please send me an email with your CV and a brief description of your research interests. Please use the subject line <strong>"Interested in Collaboration (UMS Student)"</strong> in your email.</p>
-
-<p>If you are not (yet!) a student at UMS and would like to pursue a masters or PhD under my guidance, please apply to the following program and mention my name in your statements and applications:</p>
-
-<ol>
-  <li><a href="https://www.ums.edu.my/fkj/index.php/what-we-offer/postgraduate/master-of-engineering-by-research">Master of Engineering (by Research) in Computer Engineering</a>.</li>
-  <li><a href="https://www.ums.edu.my/fkj/index.php/what-we-offer/postgraduate/doctor-of-philosophy-phd">Doctor of Philosophy (PhD) in Computer Engineering</a>.</li>
-</ol>
-
-<p>Refer to the <a href="https://www.ums.edu.my/ppps/index.php">Centre For Postgraduate Studies</a> for admission to masters or PhD programs.</p>
-</blockquote>
-</details>
-
-
-
+<!-- To update
 
 <div class="page-header" id="news"><h3>Selected Achievements & News</h3></div>
 <div class="row">
@@ -143,6 +131,7 @@ NOTE: I am looking for motivated graduate and undergraduate students who are bro
 </div>
 </div>
 
+-->
 
 
 <!-- 
