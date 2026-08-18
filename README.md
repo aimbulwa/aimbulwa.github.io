@@ -1,53 +1,101 @@
-<!-- 
-# aimbulwa.github.io
+# Academic Pages
+**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
-To create a professional academic website for a professor using GitHub Pages:
+![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
 
-Use specialized templates like academicpages or al-folio. 
+# Getting Started
 
-This approach removes the need to write complex HTML or CSS from scratch and automatically formats sections for publications, teaching history, and research lab updates.
+1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
+1. Click the "Use this template" button in the top right.
+1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
+1. Edit site-wide configuration in `_config.yml` and double check that the `url` is the one that you just selected in the previous step and that `repository` reflects the correct path for your repository.
+1. Add your site content, upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
+1. Check status by going to the repository settings, in the "GitHub pages" section
+1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-Step 1: 
-- Create a GitHub Account. Visit the GitHub Signup Page to create a free account.
-- Choose a professional username (e.g., Profaimbulwa). Note: Your username will dictate your permanent web address: https://username.github.io.
+See more info at https://academicpages.github.io/
 
-Step 2: 
-- Choose and Copy an Academic Template. Instead of coding from scratch, copy a pre-built structure optimized for academia:
+### Additional Tutorials
 
-Option A (Academic Pages - https://github.com/academicpages/academicpages.github.io): 
-Best for clean layouts, markdown blogs, and structured cv lists.
+Additional tutorials for working with the Academic Pages template can be found at the following sites:
+- https://jayrobwilliams.com/posts/2020/06/academic-website/
 
-Option B (al-folio - https://github.com/alshedivat/al-folio): 
-A highly popular, feature-rich Jekyll theme featuring automated dynamic citations and analytics.
+## Running locally
 
-- To use one, log into GitHub, 
-- Visit your chosen template repository, and click the green "Use this template" button (or Fork it) in the top-right corner.
+When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
 
-Step 3: 
-- Configure the Repository. Name the new repository exactly username.github.io (replace username with the actual GitHub account name).
-- Ensure the repository visibility is set to Public so the page can be accessible.
-- Click Create repository.
+1. Clone the repository and made updates as detailed above.
 
-Step 4: 
-- Activate GitHub Pages
-- Open your newly created repository on GitHub.
-- Click the Settings tab located in the top navigation bar.
-- Select Pages from the left-hand menu bar (under "Code and automation").
-- Under "Build and deployment", set the source to Deploy from a branch.
-- Select the main (or master) branch and choose the /root folder.
-- Click Save. 
-- Your website will live at https://username.github.io within a few minutes.
+### Using a different IDE
+1. Make sure you have ruby-dev, bundler, and nodejs installed
+    
+    On most Linux distributions and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
+    ```bash
+    sudo apt install ruby-dev ruby-bundler nodejs
+    ```
+    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
+    ```bash
+    sudo apt update && sudo apt upgrade -y
+    ```
+    then try running `sudo apt install ruby-dev ruby-bundler nodejs` again.
 
-Step 5:
-- Customize Content & Publications. You can edit the files directly on the GitHub website using the pencil icon, or clone the repository to edit locally:
+    On MacOS the commands are:
+    ```bash
+    brew install ruby
+    brew install node
+    gem install bundler
+    ```
+1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 
-Global Settings (_config.yml): 
-- Change the site name, professor's title, department info, and social links (like Google Scholar or ResearchGate).
+    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
+    Install Gems Locally (Recommended):
+    ```bash
+    bundle config set --local path 'vendor/bundle'
+    ```
+    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
 
-Biography (index.md or index.html): 
-- Edit this file to rewrite the homepage text, research summary, and upload a profile picture.
+1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change to Markdown (*.md) and HTML files, while changes to the core template and configuration (i.e., `_config.yml`) will require stopping and restarting Jekyll.
+    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
 
-Publications & CV (_publications/ or _talks/): 
-- Add markdown files for individual research papers or input them into the template's structured data files to cleanly format a dynamic CV.
+If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
 
--->
+## Using Docker
+
+Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+
+You can build and execute the container by running the following command in the repository:
+
+```bash
+chmod -R 777 .
+docker compose up
+```
+
+You should now be able to access the website from `localhost:4000`.
+
+### Using the DevContainer in VS Code
+
+If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development container configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
+
+# Maintenance
+
+Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+
+This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii), and additional maintainers would be welcome.
+
+## Bugfixes and enhancements
+
+If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of the template to your fork as well.
+
+Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize, although [rebasing](https://git-scm.com/docs/git-rebase) the changes from this template will work along with manually [cherry picking](https://git-scm.com/docs/git-cherry-pick) the relevant commits. If you are not comfortable with the Git command line, you can save your various `.yml` configuration files and Markdown files, delete the repository, and fork it again. 
+
+---
+<div align="center">
+    
+![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
+[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
+[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
+
+[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
+[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
+</div>
