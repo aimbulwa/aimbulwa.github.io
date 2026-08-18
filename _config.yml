@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Abbas Ibrahim Mbulwa"
   pronouns         : # example: "she/her"  
-  bio              : "Abbas Ibrahim Mbulwa, Ph.D., is a senior lecturer of Communications and Applied Mathematics at Universiti Malaysia Sabah (UMS). He is a member of the Institute of Electrical and Electronics Engineers (IEEE). His research interests include Wireless Communications, Applications of AI/ML in Telecommunication, Signal processing and smart sensing. He has published numerous research papers in reputable journals and conferences, contributing to advancements in the field of Telecommunication."
+  bio              : "Senior lecturer of Communications and Applied Mathematics" # at Universiti Malaysia Sabah (UMS). He is a member of the Institute of Electrical and Electronics Engineers (IEEE). His research interests include Wireless Communications, Applications of AI/ML in Telecommunication, Signal processing and smart sensing. He has published numerous research papers in reputable journals and conferences, contributing to advancements in the field of Telecommunication."
   location         : "Malaysia"
   employer         : "Universiti Malaysia Sabah"
   uri              : "https://ums.edu.my"
