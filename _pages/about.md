@@ -37,7 +37,7 @@ Please check out my CV for more details about me and my research.
     
     <!-- <p>If you are interested in a <i>postdoc</i> position, please see <a href="https://aimbulwa.github.io/openpositions.html">this page</a> for more details and application process.</p> -->
     
-    <p>If you are a <i>current interested in pursuing masters or PhD student at UMS</i>, please send me an email with a brief description of your research interests. Please use the subject line <span style="color: #cc0000; font-weight: bold;">"Interested in Collaboration (UMS Student)"</span> in your email.</p>
+    <p>If you are a <i>current student at UMS interested in pursuing masters or PhD</i>, please send me an email with your CV and a brief description of your research interests. Please use the subject line <span style="color: #cc0000; font-weight: bold;">"Interested in further studies (UMS Student)"</span> in your email.</p>
     
     <p>If you are <i>not (yet!) a student at UMS and would like to pursue a masters or PhD under my guidance</i>, <span style="color: #cc0000; font-weight: bold;">please apply to the following programs at the Faculty of Engineering UMS and mention my name in your statements and applications</span>:</p>
 
