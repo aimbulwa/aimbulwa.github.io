@@ -14,10 +14,10 @@ Step 1:
 Step 2: 
 - Choose and Copy an Academic Template. Instead of coding from scratch, copy a pre-built structure optimized for academia:
 
-Option A (Academic Pages): 
+Option A (Academic Pages - https://github.com/academicpages/academicpages.github.io): 
 Best for clean layouts, markdown blogs, and structured cv lists.
 
-Option B (al-folio): 
+Option B (al-folio - https://github.com/alshedivat/al-folio): 
 A highly popular, feature-rich Jekyll theme featuring automated dynamic citations and analytics.
 
 - To use one, log into GitHub, 
