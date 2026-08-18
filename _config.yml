@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : # "Abbas Ibrahim Mbulwa"
+title                    : "Abbas Ibrahim Mbulwa"
 title_separator          : "-"
 name                     : &name "Abbas Ibrahim Mbulwa"
 description              : &description "Abbas's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -42,8 +42,8 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
-  researchgate     : "https://www.researchgate.net/profile/Abbas-Mbulwa-2"
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57211201841"
+  researchgate     : # "https://www.researchgate.net/profile/Abbas-Mbulwa-2"
+  scopus           : # "https://www.scopus.com/authid/detail.uri?authorId=57211201841"
   zotero           : # URL
 
 
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "aimbulwa" 
+  github           : # "aimbulwa" 
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
