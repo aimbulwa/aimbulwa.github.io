@@ -27,7 +27,7 @@ author:
   name             : "Abbas Ibrahim Mbulwa"
   pronouns         : # example: "she/her"  
   bio              : "Senior lecturer of Communications, Electronics and Applied Mathematics" # at Universiti Malaysia Sabah (UMS). He is a member of the Institute of Electrical and Electronics Engineers (IEEE). His research interests include Wireless Communications, Applications of AI/ML in Telecommunication, Signal processing and smart sensing. He has published numerous research papers in reputable journals and conferences, contributing to advancements in the field of Telecommunication."
-  location         : "Malaysia"
+  location         : #"Malaysia"
   employer         : "Universiti Malaysia Sabah"
   uri              : "https://ums.edu.my"
   email            : "mbulwa@ums.edu.my" 
@@ -74,7 +74,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "aimbulwa"
+  twitter          : #"aimbulwa"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
