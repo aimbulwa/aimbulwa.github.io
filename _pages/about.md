@@ -11,6 +11,10 @@ redirect_from:
 
 See example page at https://himalakkaraju.github.io/ 
 
+See Templates: 
+https://github.com/academicpages/academicpages.github.io
+https://github.com/alshedivat/al-folio
+
 May use html for better styling as markdown style is limited. 
 
 May add custom css style and javascript files in root or separate folder and use them in html, 
