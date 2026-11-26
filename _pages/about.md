@@ -27,22 +27,24 @@ however some css and javascript style features will not be visible in the markdo
 
 -->
 
-I am a senior lecturer (assistant professor) at [Universiti Malaysia Sabah (UMS)](https://ums.edu.my) with appointments in the Faculty of Engineering. I earned a Ph.D. in Computer Engineering from UMS, specializing in mobility and handover management in 5G and beyond networks. From 2015 to 2019, I served as a research and teaching assistant at UMS, working on various computer engineering topics. From 2018 to 2025, I worked as a wireless communications engineer at Inferno Network and RapidMode Sdn. Bhd. in Kota Kinabalu, Malaysia, where my work focused on RF transmission, networking, and radio systems engineering for the [PI1M/NADI initiative](https://www.nadi.my/?lang=en) of the [Malaysian Communications and Multimedia Commission (MCMC)](https://www.mcmc.gov.my/en/home) in the eastern state of Sabah. In 2022, I was appointed as a graduate research assistant at UMS for a period of two years, during which I conducted research on mobility management in 5G. I also serve as a reviewer for several top conferences and journals, including IEEE TVET, IEEE WCL, IEEE COMML, IEEE ACCESS, and WILEY IJCS.
+I am a senior lecturer (assistant professor) at [Universiti Malaysia Sabah (UMS)](https://ums.edu.my) with appointments in the Faculty of Engineering. I earned a Ph.D. in Computer Engineering from UMS, specializing in mobility and handover management in 5G and beyond networks. From 2015 to 2019, I served as a research and teaching assistant at UMS, working on various computer engineering topics. From 2018 to 2025, I worked as a wireless communications engineer at Inferno Network and RapidMode Sdn. Bhd. in Kota Kinabalu, Malaysia, where my work focused on RF transmission, networking, and radio systems engineering for the [PI1M/NADI initiative](https://www.nadi.my/?lang=en) of the [Malaysian Communications and Multimedia Commission (MCMC)](https://www.mcmc.gov.my/en/home) in the eastern state of Sabah. In 2022, I was appointed as a graduate research assistant at UMS for a period of two years, during which I conducted research on mobility management in 5G. I also serve regularly as a TPC Member for various international conferences and a Reviewer for several Q1/Q2 ISI (WoS) journals including IEEE TVET, IEEE WCL, IEEE COMML, IEEE ACCESS, and WILEY IJCS. 
 
->My research focuses on wireless communications, next-generation communication systems and networks, communication electronics, Internet of Things (IoT), smart sensing and signal processing, and applications of artificial intelligence and machine learning (AI/ML) in Telecommunications.
+>My research focuses on wireless communications, communication systems, communication electronics, and applications of artificial intelligence and machine learning (AI/ML) in Telecommunications.
+
+I have received several recognitions, nomination, and community outreaching engagements including Nomination for Subcommittee of the IEEE Malaysia TVET/COMSOC Joint Chapter (2026), Research and Innovation Coordinator of the Electronic Engineering (Computer) Programme (2026 - 2028), Principal Investigator of the UMS-funded 6G project on AI-native 6G mobility (2026 - 2028), Deputy Head of Secretariat of the UMS Faculty of Engineering Postgraduate Seminar and Conference (2022 - 2022), Postgraduate Representative of the UMS International Student Council (2016 - 2017). Received Bronze Medal at the 2024 Malaysia Technology Expo (MTE) International Innovation Awards (IIA), a Best Paper Award from the IEEE Malaysia ComSoc/VTS Joint Chapter for publications in IEEE journals, magazines, and letters in 2023, and both Gold Medal and a Best Invention Award at the UMS Innovation Competition (PEREKA) in 2022. 
 
 Please check out my CV for more details about me and my research.
 
 <p>
   <span style="color: #cc0000; font-weight: bold;">NOTE:</span> I am looking for motivated 
   <span style="color: #cc0000; font-weight: bold;">graduate and undergraduate students </span> 
-  who are broadly interested intelligent telecommunications, cognitive mobility in future 6G networks, and emerging communication systems solution. If you are excited about this line of research and would like to work with me, please 
-  <a href="javascript:void(0);" onclick="toggle_vis('contact')">read this</a> and contact me.
+  who are broadly interested in intelligent telecommunications, mobility in future 6G networks, and emerging communication systems solution. If you are excited about this line of research and would like to work with me, please 
+  <a href="javascript:void(0);" onclick="toggle_vis('contact')">read this</a>.
 </p>
 
 <div id="contact" style="display: none;">
   <blockquote style="padding: 10px; background-color: #eeeeee; font-size: 1rem; border-left: 4px solid #cc0000;">
-    <p>Thank you for your interest in joining my research team! I am currently looking for undergraduate, masters, and PhD students to work with.</p>
+    <p>Thank you for your interest in joining my research team! I am currently looking for motivated undergraduate, masters, and PhD students to work with.</p>
     
     <!-- <p>If you are interested in a <i>postdoc</i> position, please see <a href="https://aimbulwa.github.io/openpositions.html">this page</a> for more details and application process.</p> -->
     
